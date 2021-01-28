@@ -1,0 +1,26 @@
+																Design Patterns
+
+SINGLE RESPONSIBILITY PRINCIPLE
+
+it means a class should not have more then one reason to Modify it. We should have seperate seperate classes for implementation.
+
+OPEN CLOSED PRINCIPLE
+
+It means that a class should be open for extention(Inheritance). And closed for Modifications.
+
+example - suppose we have common properties in most of the classes then we can create a base class and fixed it means closed for modifications but we can extend it in other classes.
+
+LISCOV PRINCIPLE
+
+it say that we should not change the behaviour of the method in the base class.
+
+example - class square extending the rectangle class violates liscove principle.
+
+INTERFACE SEGREGATION PRINCIPLE
+
+it says dont make large interfaces break them in parts bcoz if a class who implement this interface dont need all methods their it break the property.
+
+
+
+
+
