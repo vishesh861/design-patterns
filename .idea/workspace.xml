@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8071aeb4-d66a-4a2f-ae75-d246a4eba36a" name="Default Changelist" comment="" />
+    <list default="true" id="8071aeb4-d66a-4a2f-ae75-d246a4eba36a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1nbbTUVHi0xQeCjaVcgphTo59mE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,6 +31,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="builder.Client" />
+      <module name="Design-Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -40,5 +66,35 @@
       <updated>1611661744845</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611859792768">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1611859792768" />
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1611923096377">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1611923096377" />
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611859789488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1611859789488" />
+    <state width="1237" height="43" key="GridCell.Tab.0.bottom" timestamp="1611923229042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="43" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611923229042" />
+    <state width="1237" height="43" key="GridCell.Tab.0.center" timestamp="1611923229041">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="43" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611923229041" />
+    <state width="1237" height="43" key="GridCell.Tab.0.left" timestamp="1611923229041">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="43" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611923229041" />
+    <state width="1237" height="43" key="GridCell.Tab.0.right" timestamp="1611923229042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="43" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611923229042" />
   </component>
 </project>
