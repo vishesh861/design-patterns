@@ -1,0 +1,7 @@
+builder\Address.class
+builder\User.class
+builder\UserWebDTO.class
+builder\UserDTO.class
+builder\UserDTOBuilder.class
+builder\UserWebDTOBuilder.class
+builder\Client.class

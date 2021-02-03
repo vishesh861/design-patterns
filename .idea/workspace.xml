@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8071aeb4-d66a-4a2f-ae75-d246a4eba36a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Design-Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Design-Patterns.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/UserDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/UserDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/UserWebDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/UserWebDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/UserWebDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/UserWebDTOBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +44,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Run" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="builder.Client" />
+      <option name="MAIN_CLASS_NAME" value="simpleFactory.Client" />
       <module name="Design-Patterns" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,33 +84,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611859792768">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612357205087">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1611859792768" />
-    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1611923096377">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1612357205087" />
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser" timestamp="1612355888476">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1611923096377" />
+    <state x="446" y="24" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1612355888475" />
     <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611859789488">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1611859789488" />
-    <state width="1237" height="43" key="GridCell.Tab.0.bottom" timestamp="1611923229042">
+    <state x="366" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1612354163576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1611923229042" />
-    <state width="1237" height="43" key="GridCell.Tab.0.center" timestamp="1611923229041">
+    <state x="366" y="29" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1612354163576" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1612357210820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1611923229041" />
-    <state width="1237" height="43" key="GridCell.Tab.0.left" timestamp="1611923229041">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1612357210820" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1612357210820">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1611923229041" />
-    <state width="1237" height="43" key="GridCell.Tab.0.right" timestamp="1611923229042">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1612357210820" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1612357210819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="43" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1611923229042" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1612357210819" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1612357210820">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1612357210820" />
+    <state x="385" y="62" key="RollbackChangesDialog" timestamp="1612354280798">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="385" y="62" key="RollbackChangesDialog/0.0.1280.680@0.0.1280.680" timestamp="1612354280798" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1612354015570">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1612354015570" />
   </component>
 </project>
