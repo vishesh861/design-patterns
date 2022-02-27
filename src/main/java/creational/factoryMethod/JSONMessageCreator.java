@@ -1,7 +1,7 @@
-package com.coffeepoweredcrew.factorymethod;
+package creational.factoryMethod;
 
-import com.coffeepoweredcrew.factorymethod.message.JSONMessage;
-import com.coffeepoweredcrew.factorymethod.message.Message;
+import creational.factoryMethod.message.JSONMessage;
+import creational.factoryMethod.message.Message;
 
 /**
  * Provides implementation for creating JSON messages

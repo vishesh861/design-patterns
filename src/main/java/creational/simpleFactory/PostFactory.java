@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.simplefactory;
+package creational.simpleFactory;
 
 /**
  * This class acts as a simple factory for creation of 
