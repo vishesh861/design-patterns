@@ -12,7 +12,7 @@ example - suppose we have common properties in most of the classes then we can c
 
 LISCOV PRINCIPLE
 
-it say that we should not change the behaviour of the method in the base class.
+It says if we substitute base class object with child class object then it should not change the existing behaviour
 
 example - class square extending the rectangle class violates liscove principle.
 
@@ -20,7 +20,9 @@ INTERFACE SEGREGATION PRINCIPLE
 
 it says dont make large interfaces break them in parts bcoz if a class who implement this interface dont need all methods their it break the property.
 
+DEPENDENCY INVERSION PRINCIPLE
 
+High level module should not depend on low level module.Both should depend on abstraction.
 
 
 
