@@ -1,0 +1,5 @@
+FINALLY
+
+1. We can use finally block without catch block.
+2. If we have return statement in try and finally block the finally will execute first then it will return.
+3. If we have return statement in try and return statement in finally block then return in finally will override return in try.
