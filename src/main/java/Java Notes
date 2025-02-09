@@ -1,5 +1,75 @@
+JAVA MEMORY MANAGEMENT
+
+
 FINALLY
 
 1. We can use finally block without catch block.
 2. If we have return statement in try and finally block the finally will execute first then it will return.
 3. If we have return statement in try and return statement in finally block then return in finally will override return in try.
+
+OVERRIDING
+
+Access Modifier - The base class must have more restricted access modifier then child class.
+
+class Human{
+   public static void walk()
+   {
+       System.out.println("Human walks");
+   }
+}
+class Boy extends Human{
+   public static void walk(){
+       System.out.println("Boy walks");
+   }
+   public static void main( String args[]) {
+       Human obj = new Boy();
+
+       Human obj2 = new Human();
+       obj.walk();
+       obj2.walk();
+   }
+}
+
+O/P : Human walks
+      Human walks
+
+    class Human{
+     public void walk()
+     {
+         System.out.println("Human walks");
+     }
+    }
+    class Boy extends Human{
+     public void walk(){
+         System.out.println("Boy walks");
+     }
+     public static void main( String args[]) {
+         Human obj = new Boy();
+
+         Human obj2 = new Human();
+         obj.walk();
+         obj2.walk();
+     }
+    }
+
+    O/P : Boy walks
+          Human walks
+
+Aggregation vs Association vs Composition
+
+Aggregation is a special form of association which is a unidirectional one way relationship between classes (or entities), for e.g. Wallet and Money classes.
+
+Composition is a restricted form of Aggregation in which two entities (or you can say classes) are highly dependent on each other. For e.g. Human and Heart
+
+Association is a relationship between two separate classes and the association can be of any type say one to one, one to may etc.
+
+
+SUPER
+
+If we have args constructor and no arg constructor in child class and when we initialize the child class with args or no args then first base class constructor calls.
+
+
+
+
+
+

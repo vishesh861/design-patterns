@@ -1,8 +1,8 @@
 package behavioral.chainofresponsibility;
 
+import behavioral.chainofresponsibility.LeaveApplication.Type;
 import java.time.LocalDate;
 
-import com.coffeepoweredcrew.chainofresponsibility.LeaveApplication.Type;
 
 public class Client {
 
