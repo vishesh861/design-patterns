@@ -69,6 +69,27 @@ SUPER
 If we have args constructor and no arg constructor in child class and when we initialize the child class with args or no args then first base class constructor calls.
 
 
+EXCEPTIONS WITH INHERITANCE
+
+If parent class not having exception and child class has checked exception / Exception class.    O/P compilation error
+
+If parent class not having exception and child class has unchecked exception.    O/P no compilation error
+
+If parent class has runtime/checked exception and child class has Exception class / Throwable.    O/P compilation error
+
+If parent class has runtime exception and child class has checked exception.    O/P compilation error
+
+If parent class has checked exception and child class has runtime exception.    O/P no compilation error
+
+If parent class has ArrayIndexOutOfBoundsException and child class has runtime exception.    O/P no compilation error
+
+If parent class has checked/unchecked/Exception and child class has no exception.    O/P no compilation error
+
+
+
+
+
+
 
 
 
