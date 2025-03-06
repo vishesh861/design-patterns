@@ -1,5 +1,12 @@
 JAVA MEMORY MANAGEMENT
 
+1. Heap area - The memory in the heap is allocated for all the class instances and arrays
+2. Method area - Method area is used to store class-level information such as class structures, Method bytecode, Static variables, Constant pool, Interfaces.
+3. Stack area - JVM stack is used to store method execution data, including local variables, method arguments, and return addresses
+
+Static variables are stored in the Method Area.
+Instance variables are stored in the Heap.
+Local Variables are stored Stack.
 
 FINALLY
 
