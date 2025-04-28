@@ -93,6 +93,105 @@ If parent class has ArrayIndexOutOfBoundsException and child class has runtime e
 If parent class has checked/unchecked/Exception and child class has no exception.    O/P no compilation error
 
 
+MULTI-THREADING
+
+CountDownLatch
+
+When we create an object of CountDownLatch, we specify the number of threads it should wait for, all such thread are required to do count down by calling CountDownLatch.countDown() once they are completed or ready to the job.
+As soon as count reaches zero, the waiting task starts running.
+
+CountDownLatch latch = new CountDownLatch(4);
+latch.await();
+latch.countDown();
+
+
+ReentrantLock
+
+ReentrantLock tracks a “hold count” which is a value that starts at 1 when a thread first locks the resource. Each time the thread re-enters the lock, the count is incremented.
+The count is decremented when the lock is released. Once the hold count reaches zero, the lock is fully released.
+
+ReentrantLock lock = new ReentrantLock()
+lock.lock();
+lock.unlock();
+
+
+CyclicBarrier
+
+CyclicBarrier is used to make threads wait for each other.
+It is used when different threads process a part of computation and when all threads have completed the execution, the result needs to be combined in the parent thread.
+
+CyclicBarrier newBarrier = new CyclicBarrier(numberOfThreads);
+newBarrier.await();
+
+
+Semaphore
+
+A semaphore controls access to a shared resource through the use of a counter. If the counter is greater than zero, then access is allowed. If it is zero, then access is denied.
+
+Semaphore sem = new Semaphore(1);
+sem.acquire();
+sem.release();
+
+
+COLLECTIONS
+
+Interfaces
+
+Collection
+List
+Set
+Queue
+Dequeue
+Map
+SortedSet
+SortedMap
+NavigableMap
+NavigableSet
+ConcurrentMap
+
+
+List                    InsertionBeginning   InsertionEnd   DeletionBeginning   DeletionEnd   Searching   Synchronised/not Synchronised   FailSafe/FailFast   DataStructure
+ArrayList               O(N)                 O(1)           O(n)                O(n)          O(n)        not Synchronised                FailFast            Array
+LinkedList              O(1)                 O(n)           O(1)                O(n)          O(n)        not Synchronised                FailFast            Doubly Linked List
+Vector                  O(n)                 O(n)           O(n)                O(1)          O(n)        Synchronised                    FailFast            Array
+Stack                   O(n)                 O(1)           O(n)                O(1)          O(n)        not Synchronised                FailFast            Vector
+CopyOnWriteArrayList    O(n)                 O(n)           O(n)                O(n)          O(n)        Synchronised                    FailSafe            Array
+
+Set                     InsertionBeginning   InsertionEnd   Insertion   DeletionBeginning   DeletionEnd   Deletion   Searching   Synchronised/not Synchronised   FailSafe/FailFast   DataStructure
+HashSet                 -                    -              O(1)        -                   -             O(1)       O(1)        not Synchronised                FailFast            HashMap
+CopyOnWriteArraySet     -                    -              O(n)        -                   -             O(n)       O(n)        Synchronised                    FailSafe            CopyOnWriteArrayList -> Array
+LinkedHashSet           -                    -              O(1)        -                   -             O(1)       O(1)        not Synchronised                FailFast            HashTable and Doubly-linked list
+EnumSet                 -                    -              O(1)        -                   -             O(1)       O(1)        not Synchronised                FailFast            bit vector
+TreeSet                 -                    -              O(log n)    -                   -             O(log n)   O(log n)    not Synchronised                FailFast            TreeMap
+ConcurrentSkipListSet   -                    -              O(log n)    -                   -             O(log n)   O(log n)    Synchronised                    FailSafe            skip list
+
+Map                    InsertionBeginning   InsertionEnd   Insertion   DeletionBeginning   DeletionEnd   Deletion   Searching   Synchronised/not Synchronised   FailSafe/FailFast   DataStructure
+HashMap                -                    -              O(n)        -                   -             O(n)       O(n)        not Synchronised                FailFast            TreeNode or LinkedList
+LinkedHashMap          -                    -              O(1)        -                   -             O(1)       O(1)        not Synchronised                FailFast            Doubly-linked list
+ConcurrentHashMap      -                    -              O(1)        -                   -             O(1)       O(1)        Synchronised                    FailSafe            Segmented Locking
+TreeMap                -                    -              O(log n)    -                   -             O(log n)   O(log n)    not Synchronised                FailFast            Red-Black tree
+EnumMap                -                    -              O(1)        -                   -             O(1)       O(1)        not Synchronised                FailFast            Array
+HashTable              -                    -              O(1)        -                   -             O(1)       O(1)        Synchronised                    FailFast            Array -> LinkedList
+
+Queue
+ArrayBlockingQueue
+ArrayDeque
+AbstractQueue
+BlockingQueue
+PriorityQueue
+PriorityBlockingQueue
+DelayQueue
+ConcurrentLinkedQueue
+LinkedBlockingQueue
+LinkedTransferQueue
+
+Dequeue
+ArrayDeque
+BlockingDeque
+ConcurrentLinkedDeque
+
+
+
 
 
 
