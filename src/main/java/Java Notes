@@ -148,6 +148,7 @@ SortedMap
 NavigableMap
 NavigableSet
 ConcurrentMap
+BlockingQueue
 
 
 List                    InsertionBeginning   InsertionEnd   DeletionBeginning   DeletionEnd   Searching   Synchronised/not Synchronised   FailSafe/FailFast   DataStructure
@@ -177,17 +178,12 @@ Queue
 ArrayBlockingQueue
 ArrayDeque
 AbstractQueue
-BlockingQueue
 PriorityQueue
 PriorityBlockingQueue
 DelayQueue
 ConcurrentLinkedQueue
 LinkedBlockingQueue
 LinkedTransferQueue
-
-Dequeue
-ArrayDeque
-BlockingDeque
 ConcurrentLinkedDeque
 
 
